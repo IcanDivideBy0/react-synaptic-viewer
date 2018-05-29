@@ -1,0 +1,38 @@
+/**
+ * App styles
+ */
+
+.App-main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.App-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/**
+ * NetworkViewer styles
+ */
+
+.App-network {
+  user-select: none;
+}
+
+.App-network .Connection path {
+  stroke: rgba(0, 0, 0, 0.5);
+}
+.App-network .Connection:hover path {
+  stroke: rgba(0, 0, 0, 1);
+}
+
+.App-network .Connection text {
+  fill: rgba(0, 0, 0, 0.2);
+}
+.App-network .Connection:hover text {
+  fill: rgba(0, 0, 0, 1);
+}
